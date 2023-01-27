@@ -68,11 +68,14 @@ export default function PageSignUp() {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-            <LockOutlinedIcon />
+        
+          <Avatar sx={{ m: 1, bgcolor: 'secondary.main',width: 90, height: 90 }}>          
+            <LockOutlinedIcon sx={{ m: 1,width: 70, height: 70 }}/>
           </Avatar>
           <Typography component="h1" variant="h5">
-            Sign up
+          <p className="font-bold text-3xl">
+          Sign up
+          </p> 
           </Typography>
           <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
             <Grid container spacing={2}>

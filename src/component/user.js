@@ -43,12 +43,16 @@ export default function User() {
       window.location = '/'
     }
   return (
-    <div className="bg-white py-24 sm:py-32 lg:py-40">
-      <div className="grid grid-cols-3 gap-y-10 gap-x-6 sm:grid-cols-4  lg:grid-cols-6 xl:gap-x-8 mx-20 mt-10">
+    <div className="bg-white py-16 sm:py-20 lg:py-28">
+      <div className="grid grid-cols-3 gap-y-10 gap-x-6 sm:grid-cols-4  lg:grid-cols-6 xl:gap-x-8 mx-20 ">
    
       </div>
+    
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="sm:text-center">
+        <div className="sm:text-center justify-center grid">
+        <div className="w-60 h-56 mb-8">
+            <img src={"./user.png"} alt=" " />;
+         </div>
           <h2 className="text-2xl font-semibold leading-8 text-indigo-600">DATA User</h2>
       
            <p className="text-2xl py-5">

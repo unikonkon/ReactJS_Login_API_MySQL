@@ -70,11 +70,13 @@ export default function PageLogin() {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-            <LockOutlinedIcon />
-          </Avatar>
-          <Typography component="h1" variant="h5">
+         <div className="w-60 h-56">
+            <img src={"./lock.png"} alt=" " />;
+         </div>
+          <Typography component="h1" variant="h5" className='pb-5'>
+            <p className="font-bold text-3xl">
             Sign in
+            </p>  
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
